@@ -67,4 +67,19 @@
     color: #FFFFFF;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
+
+  /* Estilo para destacar o botão Abrir Conta no React */
+.btn-abrir-conta {
+  background-color: #007bff; /* Cor azul de destaque */
+  color: #ffffff !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-abrir-conta:hover {
+  background-color: #0056b3;
+}
+
   
