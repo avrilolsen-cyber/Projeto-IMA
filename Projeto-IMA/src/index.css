@@ -368,3 +368,12 @@ body {
 }
 
 .social-item:hover { color: var(--primary-color); }
+.screen {
+  display: none !important;
+  height: 100%;
+}
+
+.screen.active {
+  display: flex !important;
+  flex-direction: column;
+}

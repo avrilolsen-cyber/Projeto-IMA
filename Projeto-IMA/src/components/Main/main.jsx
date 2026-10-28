@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-
-export default function Main({ 
+import './main.css'
+ function Main({ 
   currentScreen, setCurrentScreen, books, cart, setCart, addToCart, 
   searchQuery, setSearchQuery, selectedGenre, setSelectedGenre 
 }) {
@@ -179,3 +178,4 @@ export default function Main({
     </main>
   );
 }
+export default Main
