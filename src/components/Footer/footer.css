@@ -1,0 +1,40 @@
+.main-footer {
+    background-color: var(--container-bg);
+    border-top: 1px solid var(--border-color);
+    padding: 20px 40px;
+    width: 100%;
+    margin-top: auto; /* Garante que o rodapé fique sempre embaixo */
+  }
+  
+  .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .social-item {
+    color: var(--text-main);
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .social-item span {
+    font-size: 16px;
+  }
+  
+  .social-item:hover {
+    color: var(--primary-color);
+    transform: translateY(-1px);
+  }
+  

@@ -1,0 +1,129 @@
+
+/* LOGIN E CADASTRO */
+
+.auth-page {
+  min-height: 100vh;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF4F5;
+  color: #4A3B40;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-page * {
+  box-sizing: border-box;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 42px 50px 38px;
+  border: 1px solid #EBC6CD;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(138, 114, 121, 0.04);
+}
+
+.auth-card h2 {
+  margin: 0 0 25px;
+  color: #4A3B40;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-card input {
+  width: 100%;
+  height: 49px;
+  padding: 0 14px;
+  border: 1px solid #EBC6CD;
+  border-radius: 10px;
+  background-color: #FAF0F2;
+  color: #4A3B40;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+}
+
+.auth-card input::placeholder {
+  color: #8A7279;
+  opacity: 1;
+}
+
+.auth-card input:focus {
+  border-color: #C0808A;
+}
+
+.auth-button {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #C0808A;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.auth-button:hover {
+  background-color: #A86B75;
+}
+
+.auth-footer {
+  margin: 20px 0 0;
+  color: #8A7279;
+  font-size: 13px;
+}
+
+.auth-link {
+  padding: 0;
+  border: none;
+  background: none;
+  color: #C0808A;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.auth-error {
+  margin: 0;
+  color: #D9534F;
+  font-size: 13px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.logout-button {
+  margin: 0 20px 15px auto;
+  padding: 9px 15px;
+  border: 1px solid #E6C8CE;
+  border-radius: 8px;
+  background: #FAF0F2;
+  color: #8A7279;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .auth-page {
+    padding: 16px;
+  }
+
+  .auth-card {
+    padding: 35px 24px;
+  }
+}
