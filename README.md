@@ -9,10 +9,9 @@ Integrantes da equipe
 Avril Arganaraz Olsen
 Isabela Ferreti
 Murilo de Oliveira
-Protótipos do projeto
-Canva: Adicionar link do protótipo
-Excalidraw: Adicionar link do diagrama
-Figma: Adicionar link do protótipo
+Protótipos do projeto 
+Figma: https://www.figma.com/proto/1CK2ng7wVA1zTQrEM714CK?node-id=151-93&t=rTTuLTnQCJeRBn8b-6
 Repositório GitHub
 
 Projeto IMA — GitHub
+
