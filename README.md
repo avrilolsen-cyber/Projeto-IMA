@@ -1,16 +1,18 @@
-# React + Vite
+Projeto IMA
+Tema do projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Livraria Virtual
 
-Currently, two official plugins are available:
+O projeto consiste no desenvolvimento de uma aplicação web de uma livraria virtual, com navegação entre a página inicial, biblioteca, carrinho de compras e perfil do usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Integrantes da equipe
+Avril Arganaraz Olsen
+Isabela Ferreti
+Murilo de Oliveira
+Protótipos do projeto 
+Figma: https://www.figma.com/proto/1CK2ng7wVA1zTQrEM714CK?node-id=151-93&t=rTTuLTnQCJeRBn8b-6
+Repositório GitHub
 
-## React Compiler
+Projeto IMA — GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
