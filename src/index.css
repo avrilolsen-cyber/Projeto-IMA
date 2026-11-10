@@ -30,7 +30,6 @@ body {
 
 .desktop-container {
   width: 100%;
-  max-width: 1200px;
   height: 850px;
   background-color: var(--container-bg);
   border-radius: 20px;

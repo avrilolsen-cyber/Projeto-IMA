@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import "./header.css";
+import { FaUserCircle } from "react-icons/fa";
 
 
  function Header({
@@ -45,7 +46,7 @@ import "./header.css";
               />
             ) : (
               <span className="perfil-avatar perfil-inicial">
-                {user?.nome?.charAt(0)?.toUpperCase() || ""}
+                {user?.nome?.charAt(0)?.toUpperCase() || <FaUserCircle />}
               </span>
             )}
 
@@ -64,7 +65,7 @@ import "./header.css";
                   />
                 ) : (
                   <div className="perfil-foto-grande perfil-inicial">
-                    {user?.nome?.charAt(0)?.toUpperCase() || "👤"}
+                    {user?.nome?.charAt(0)?.toUpperCase() || <FaUserCircle />}
                   </div>
                 )}
 
